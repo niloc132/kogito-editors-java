@@ -66,7 +66,7 @@ public class SVGGeneratorImplTest {
     public void setup() throws Exception {
         when(translator.translate(any(SVGTranslatorContext.class))).thenReturn(viewDefinition);
         tested = new SVGGeneratorImpl(translator,
-                                      viewFactoryGenerator);
+                                      viewFactoryGenerator, filer);
     }
 
     @Test
