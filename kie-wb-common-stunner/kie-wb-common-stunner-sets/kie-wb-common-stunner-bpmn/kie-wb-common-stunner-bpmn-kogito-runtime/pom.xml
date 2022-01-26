@@ -340,13 +340,6 @@
 
     <dependency>
       <groupId>org.kie.kogito</groupId>
-      <artifactId>kie-wb-common-stunner-bpmn-api</artifactId>
-      <version>${version}</version>
-      <classifier>sources</classifier>
-    </dependency>
-
-    <dependency>
-      <groupId>org.kie.kogito</groupId>
       <artifactId>kie-wb-common-stunner-bpmn-marshalling</artifactId>
       <version>${version}</version>
     </dependency>
