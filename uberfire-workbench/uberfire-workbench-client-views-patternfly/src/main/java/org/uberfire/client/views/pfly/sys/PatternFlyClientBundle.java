@@ -25,18 +25,19 @@ public interface PatternFlyClientBundle extends ClientBundle {
 
     PatternFlyClientBundle INSTANCE = new PatternFlyClientBundle_default_InlineClientBundleGenerator();
 
-    @Source("org/uberfire/client/views/static/bootstrap-select/js/bootstrap-select.min.js")
+    @Source("org/uberfire/client/views/static/bootstrap-select/js/bootstrap-select.min.js.txt")
     TextResource bootstrapSelect();
 
-    @Source("org/uberfire/client/views/static/js/patternfly.min.js")
+    @Source("org/uberfire/client/views/static/js/patternfly.min.js.txt")
     TextResource patternFly();
 
-    @Source("org/uberfire/client/views/static/moment/moment-with-locales.min.js")
+    @Source("org/uberfire/client/views/static/moment/moment-with-locales.min.js.txt")
     TextResource moment();
 
-    @Source("org/uberfire/client/views/static/moment-timezone/moment-timezone-with-data-2012-2022.min.js")
+    @Source("org/uberfire/client/views/static/moment-timezone/moment-timezone-with-data-2012-2022.min.js.txt")
     TextResource momentTimeZone();
 
-    @Source("org/uberfire/client/views/static/appformer-js-monaco/monaco.min.js")
+    // Note that this seems to be the second copy of monaco.min.js in this project
+    @Source("org/uberfire/client/views/static/appformer-js-monaco/monaco.min.js.txt")
     TextResource monacoEditor();
 }
