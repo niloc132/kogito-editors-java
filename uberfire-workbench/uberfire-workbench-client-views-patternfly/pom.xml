@@ -565,7 +565,7 @@
                                         ${project.build.directory}/appformer-js-monaco/META-INF/resources/webjars/appformer-js-monaco/${project.version}/monaco-editor
                                     </directory>
                                     <includes>
-                                        <include>monaco.min.js</include>
+                                        <include>monaco.min.js.txt</include>
                                     </includes>
                                 </resource>
                             </resources>
