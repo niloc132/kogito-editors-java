@@ -55,6 +55,11 @@
       <scope>provided</scope>
     </dependency>
 
+    <dependency>
+      <groupId>io.crysknife.ui.validation</groupId>
+      <artifactId>api</artifactId>
+    </dependency>
+
     <!-- test -->
 <!--    <dependency>
       <groupId>org.mockito</groupId>
