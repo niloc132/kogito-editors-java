@@ -420,7 +420,6 @@
       <plugin>
         <groupId>com.vertispan.j2cl</groupId>
         <artifactId>j2cl-maven-plugin</artifactId>
-        <version>0.19-SNAPSHOT</version>
         <executions>
           <execution>
             <id>build-js</id>
@@ -432,7 +431,6 @@
         </executions>
         <configuration>
           <webappDirectory>${project.build.directory}/gwt/launcherDir/</webappDirectory>
-          <compilationLevel>ADVANCED</compilationLevel>
         </configuration>
       </plugin>
 
